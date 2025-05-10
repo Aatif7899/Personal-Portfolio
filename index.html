@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="home">
+        <nav>
+            <ul class="sidebar">
+                <li class="close-button" onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                            height="32px" viewBox="0 -960 960 960" width="32px" fill="#000000">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg></a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul>
+                <li class="hideOnMobile"><a href="#">Mohd Aatif</a></li>
+                <li class="hideOnMobile"><a href="#home">Home</a></li>
+                <li class="hideOnMobile"><a href="#about">About</a></li>
+                <li class="hideOnMobile"><a href="#skills">Skills</a></li>
+                <li class="hideOnMobile"><a href="#projects">Projects</a></li>
+                <li class="hideOnMobile"><a href="#contact">Contact</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                            height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></a></li>
+            </ul>
+        </nav>
+
+        <!-- Home section -->
+        <div class="home">
+            <div class="wid">
+                <div class="hi">Hi, I am </div>
+                <div class="name">Mohd Aatif</div>
+                <div class="repeat">
+                    <h1> I'm a <span class="auto-type"></span></h1>
+                </div>
+                <a href="assest/Aatif Resume.pdf" download target="_blank" class="button">DOWNLOAD</a>
+                <div class="social-menu">
+                    <span>
+                        <a href="https://www.linkedin.com/in/mohd-aatif7899/"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                    </span>
+                    <span>
+                        <a href="https://github.com/Aatif7899"><i class="fa-brands fa-github"></i></a>
+                    </span>
+
+                </div>
+            </div>
+            <div class="blob">
+            </div>
+        </div>
+    </section>
+    <!-- Introduction Section -->
+    <section id="about">
+        <div class="magicpattern">
+            <img src="assest/Aatif.png" class="photo" alt="aa">
+        </div>
+        <div class="intro">
+            <h2 class="title" style="text-align:unset; margin: 0.5rem;">About Me</h2>
+            <p class="para">I'm Mohd Aatif!<br> I'm a passionate Software Engineer, Web designer, and Computer Science
+                student
+                with a strong background in Java, Python, and frontend development. I love creating visually
+                appealing and user-friendly websites using technologies like HTML, CSS, JavaScript,
+                TailwindCSS, and Bootstrap. Problem-solving and adaptability are my strengths, helping me build
+                efficient and scalable solutions. I enjoy working in fast-paced environments, constantly
+                learning, and contributing to innovative projects that make a real impact.<br>
+            </p>
+
+        </div>
+    </section>
+    <!-- Skills section -->
+
+
+    <section id="skills">
+        <h2 class="title"> My Skills</h2>
+        <div class="container">
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Frontend Development</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>CSS</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>JavaScript</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Programming Languages</h3>
+                    <div class="languages-grid">
+                        <div class="language-item">
+                            <div class="skill-item">
+                                <div class="skill-name">
+                                    <span>Java</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="70"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="language-item">
+                            <div class="skill-item">
+                                <div class="skill-name">
+                                    <span>Python</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="70"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Soft Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Communication</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Problem Solving</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Adaptability</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Creativity</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects section -->
+    <section id="projects">
+        <h2 class="title">Projects</h2>
+        <div class="containers swiper">
+            <div class="slider-wrapper">
+                <div class="card-list swiper-wrapper">
+                    <div class="card-item swiper-slide">
+                        <img src="assest/cal3.png" alt="User Image" class="user-image">
+                        <!-- <h2>Calculator</h2> -->
+                        <p class="user-profession">Calculator</p>
+                        <a href="">
+                            <button class="message-button">View</button>
+                        </a>
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img src="assest/coffee.jpeg" alt="User Image" class="user-image">
+                        <!-- <h2>Coffee Shop Website</h2> -->
+                        <p class="user-profession">Coffee Shop Website</p>
+                        <a href="">
+                            <button class="message-button">View</button>
+                        </a>
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img src="assest/tictactoe0.png" alt="User Image" class="user-image">
+                        <!-- <h2>Tic Tac Toe Game</h2> -->
+                        <p class="user-profession">Tic Tac Toe Game</p>
+                        <a href="">
+                            <button class="message-button">View</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-slide-button swiper-button-prev"></div>
+                <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+        <h2 class="title">Contact Me</h2>
+        <div class="contact">
+            <fieldset name="myForm" class="contact-form" action="" onsubmit="return validateForm()">
+                <div class="hg">
+                    <label for="full_name" class="required">Full Name</label>
+                    <input type="text" id="full_name" name="full_name" placeholder="Enter your Full Name" required>
+                    <label for="number" class="required">Mobile No.</label>
+                    <input type="number" id="number" name="number" placeholder="Enter you Mobile number" required>
+                    <label for="email" class="required">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter you Email" required>
+                    <label for="message" class="message">Message</label>
+                    <textarea id="message" name="message" rows="8" cols="61"
+                        placeholder="Write you message..."></textarea>
+                    <button type="submit" value="Send Message" class="submit">Send Message</button>
+                </div>
+            </fieldset>
+            <div class="location">
+                <span class="conta">
+                    <i class="fa-solid fa-phone"></i>
+                    <span class="contact-text">+917275404805</span>
+                </span>
+                <span class="conta">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span class="contact-text">aatifmohammad75@gmail.com
+                    </span>
+                </span>
+                <span class="conta">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span class="contact-text">Okhla, New Delhi,110025
+                    </span>
+                </span>
+
+                <div class="social-menu">
+                    <span>
+                        <a href="https://www.linkedin.com/in/mohd-aatif7899/"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                    </span>
+                    <span>
+                        <a href="https://github.com/Aatif7899"><i class="fa-brands fa-github"></i></a>
+                    </span>
+                    <span>
+                        <a href="https://www.linkedin.com/in/mohd-aatif7899/"><i class="fa-brands fa-instagram"></i></a>
+                    </span>
+                    <span>
+                        <a href="https://www.linkedin.com/in/mohd-aatif7899/"><i class="fa-brands fa-facebook"></i></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2025 All rights reserved | This template is made by <a href="#home" class="hd">Mohd
+                    Aatif</a>
+            </p>
+
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
